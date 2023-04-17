@@ -1,6 +1,6 @@
 public class Question1
 {
-  public static void main(String args[])
+  public static void main(String[] args)
   {
     /**
      * Print "Hello World!"
@@ -10,3 +10,5 @@ public class Question1
     System.out.println("Hello World!");
   }
 }
+javac Question1.java;
+java Question1;
