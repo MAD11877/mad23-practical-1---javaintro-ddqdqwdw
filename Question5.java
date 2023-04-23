@@ -31,7 +31,7 @@ public class Question5
     int highest = 0;
     int count = in.nextInt();
     List<List<Integer>> list = new ArrayList<>();
-    for (int count = count; count > 0; count--)
+    for (count > 0; count--)
     {
       boolean present = false;
       int entry = in.nextInt();
@@ -39,7 +39,7 @@ public class Question5
       {
         List<Integer> listemp = list.get(i);
         int uniq = listemp.get(0);
-        if (entry = uniq)
+        if (entry == uniq)
         {
           int temp = listemp.get(1);
           temp += 1;
@@ -47,7 +47,7 @@ public class Question5
           list.set(i, listemp);
         } 
       }
-      if (present = false)
+      if (present == false)
       {
         List<Integer> listemp = new ArrayList<Integer>();
         listemp.add(entry);
