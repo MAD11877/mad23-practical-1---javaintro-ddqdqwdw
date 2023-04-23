@@ -39,7 +39,7 @@ public class Question5
       {
         List<Integer> listemp = list.get(i);
         int uniq = listemp.get(0);
-        if (entry = uniq;)
+        if (entry = uniq)
         {
           int temp = listemp.get(1);
           temp += 1;
@@ -47,15 +47,18 @@ public class Question5
           list.set(i, listemp);
         } 
       }
-      if (present = false;)
+      if (present = false)
       {
-        list.add([entry, 1]);
+        List<Integer> listemp = new ArrayList<Integer>();
+        listemp.add(entry);
+        listemp.add(1);
+        list.add(listemp);
       }
     }
     for (int i = 0; i < list.size(); i++)
     {
       List<Integer> listemp = list.get(i);
-      if (listemp.get(1) > highest;)
+      if (listemp.get(1) > highest)
       {
         mode = listemp.get(0);
       }
