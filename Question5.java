@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Question5
 {
@@ -30,7 +32,7 @@ public class Question5
     int mode = 0;
     int highest = 0;
     int e = in.nextInt();
-    List<List<Integer>> list = new ArrayList<List<Integer>>();
+    List<List<Integer>> list = new ArrayList<>();
     for (int count = e; count > 0; count--)
     {
       boolean present = false;
