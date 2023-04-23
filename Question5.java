@@ -29,9 +29,9 @@ public class Question5
     Scanner in = new Scanner(System.in);
     int mode = 0;
     int highest = 0;
-    int count = in.nextInt();
+    int e = in.nextInt();
     List<List<Integer>> list = new ArrayList<>();
-    for (count > 0; count--)
+    for (int count = e; count > 0; count--)
     {
       boolean present = false;
       int entry = in.nextInt();
